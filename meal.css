@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin-bottom: 12px;
+    text-align: center;
+}
+.wrapper {
+    margin: 100px auto;
+    max-width: 480px;
+    width: 100%;
+    padding: 24px 32px;
+    background-color: burlywood;
+    border-radius: 24px; 
+}
+.wrapper .inputMeal {
+    display: flex;
+    height: 30px;
+    width: 100%; 
+    margin: 0 auto 24px;
+}
+.inputMeal button {
+    margin-left: 3px;
+    cursor: pointer;
+    opacity: 0.4;
+    pointer-events: none;
+}
+.inputMeal button.active {
+    margin-left: 3px;
+    cursor: pointer;
+    opacity: 1;
+    pointer-events: auto;
+}
+.mealsNumber {
+    color: rgb(196, 34, 20);
+    font-weight: bold;
+}
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+}
+table {
+    width: 80%; 
+    border-collapse: collapse;
+}
+td > button {
+    width: 100%;
+}
+button {
+    background-color: rgb(219, 211, 211);
+}
